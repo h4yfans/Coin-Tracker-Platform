@@ -12,6 +12,9 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    @yield('_style')
 </head>
 <body>
     <div id="app">
@@ -74,6 +77,7 @@
         @yield('content')
     </div>
 
+    @yield('_script')
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
