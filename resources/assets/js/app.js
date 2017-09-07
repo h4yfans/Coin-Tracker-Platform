@@ -9,10 +9,7 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
-import Vue from 'vue';
-import Vuetify from 'vuetify';
 
-Vue.use(Vuetify);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -20,7 +17,7 @@ Vue.use(Vuetify);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example', require('./components/Example.vue'));
+Vue.component('technical-analysis', require('./components/TA.vue'));
 
 const app = new Vue({
     el: '#app'

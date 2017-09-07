@@ -2,25 +2,9 @@
 
 @section('content')
 
-    <div class="col-sm-3">
-        <div class="panel panel-default">
-            <div class="panel-heading">Technical Analysis</div>
-            <div class="panel-body">
-                <ul class="list-group text-center">
-                    <li class="list-group-item" data-toggle="modal" data-target=".bs-example-modal-sm">  BTC &nbsp;<i class="fa fa-minus-circle pull-right" aria-hidden="true"></i></li>
-                    <li class="list-group-item">  PAY &nbsp;<i class="fa fa-minus-circle pull-right" aria-hidden="true"></i></li>
-                    <li class="list-group-item">  STRAT &nbsp;<i class="fa fa-minus-circle pull-right" aria-hidden="true"></i></li>
-                    <li class="list-group-item">  PTOY &nbsp;<i class="fa fa-minus-circle pull-right" aria-hidden="true"></i></li>
-                    <li class="list-group-item">  DTB &nbsp;<i class="fa fa-minus-circle pull-right" aria-hidden="true"></i></li>
-                </ul>
-                <div class="text-center">
-                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                </div>
-            </div>
-        </div>
-    </div>
+    <technical-analysis></technical-analysis>
 
-    <div class="col-sm-3">
+   {{-- <div class="col-sm-3">
         <div class="panel panel-default">
             <div class="panel-heading">Watch List</div>
             <div class="panel-body">
@@ -73,7 +57,7 @@
             </div>
         </div>
     </div>
-
+--}}
 
     <!-- Small modal -->
     <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
@@ -90,7 +74,6 @@ asdf
 
 @section('_style')
     <style>
-
         body{
             background: #414563;
         }
